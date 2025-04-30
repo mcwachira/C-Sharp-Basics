@@ -14,9 +14,13 @@ class Program
         
         // basic_input_output.GetUserData();
         
-        LocalVarDeclaration.LocalVar();
+        // LocalVarDeclaration.LocalVar();
+        
+        // DataTypeFunctionality.TypeFunctionality();
+        
+        ParsingData.ParseFromString();
         // Wait for Enter key to be pressed before shutting down.
-        Console.ReadLine();
+        // Console.ReadLine();
 
      
 
