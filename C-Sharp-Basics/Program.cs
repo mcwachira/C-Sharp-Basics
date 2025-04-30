@@ -19,11 +19,13 @@ class Program
         // DataTypeFunctionality.TypeFunctionality();
         
         // ParsingData.ParseFromString();
-        DateTimeExample.UseDateTime();
+        // DateTimeExample.UseDateTime();
+
+        StringManipulation.BasicStringFunctionality();
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
 
-     
+
 
     }
     
