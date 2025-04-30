@@ -18,7 +18,8 @@ class Program
         
         // DataTypeFunctionality.TypeFunctionality();
         
-        ParsingData.ParseFromString();
+        // ParsingData.ParseFromString();
+        DateTimeExample.UseDateTime();
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
 
