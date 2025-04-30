@@ -10,11 +10,17 @@ class Program
         Console.WriteLine("Hello World!");
         Console.WriteLine();
         // EnviromentDetails.ShowEnvironmentDetails();
-        basic_input_output.GetUserData();
+        
+        
+        // basic_input_output.GetUserData();
+        
+        LocalVarDeclaration.LocalVar();
         // Wait for Enter key to be pressed before shutting down.
         Console.ReadLine();
 
      
 
     }
+    
+    
 }
