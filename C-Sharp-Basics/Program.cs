@@ -9,7 +9,8 @@ class Program
         Console.WriteLine("***** My First C# App *****");
         Console.WriteLine("Hello World!");
         Console.WriteLine();
-        EnviromentDetails.ShowEnvironmentDetails();
+        // EnviromentDetails.ShowEnvironmentDetails();
+        basic_input_output.GetUserData();
         // Wait for Enter key to be pressed before shutting down.
         Console.ReadLine();
 
