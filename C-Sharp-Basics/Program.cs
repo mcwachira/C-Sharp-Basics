@@ -30,7 +30,10 @@ class Program
         //loops
         // Loops.basicLoops();
         //string formating
-        StringFormatting.FormatString();
+        // StringFormatting.FormatString();
+     
+        //multiplication table
+        Timetable.MultiplicationTable();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
