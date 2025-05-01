@@ -33,7 +33,10 @@ class Program
         // StringFormatting.FormatString();
      
         //multiplication table
-        Timetable.MultiplicationTable();
+        // Timetable.MultiplicationTable();
+        
+        //fizz buz game
+        FizzBuzz.FizzBuzzGame();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
