@@ -28,8 +28,10 @@ class Program
         // StringConcatenation.BasicStringConcatenation();
         // String_builder.FunWithStringBuilder();
         //loops
-        Loops.basicLoops();
-        
+        // Loops.basicLoops();
+        //string formating
+        StringFormatting.FormatString();
+
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
 
