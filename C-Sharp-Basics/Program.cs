@@ -9,7 +9,9 @@ class Program
         Console.WriteLine("***** My First C# App *****");
         Console.WriteLine("Hello World!");
         Console.WriteLine();
-        // EnviromentDetails.ShowEnvironmentDetails();
+
+      
+    // EnviromentDetails.ShowEnvironmentDetails();
         
         
         // basic_input_output.GetUserData();
@@ -21,7 +23,13 @@ class Program
         // ParsingData.ParseFromString();
         // DateTimeExample.UseDateTime();
 
-        StringManipulation.BasicStringFunctionality();
+        // StringManipulation.BasicStringFunctionality();
+        
+        // StringConcatenation.BasicStringConcatenation();
+        // String_builder.FunWithStringBuilder();
+        //loops
+        Loops.basicLoops();
+        
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
 
