@@ -4,16 +4,24 @@ public class FizzBuzz
 {
     public static void FizzBuzzGame()
     {
+        bool divisibleBythree = false;
+        bool divisibleByFive = false;
         for (int i = 1; i <= 15; i++)
+            
+       
+        
         {
-            if (i % 3 == 0 && i % 5 == 0)
+             
+            divisibleBythree = i % 3 == 0;
+            divisibleByFive = i % 5 == 0;
+            if ( divisibleBythree  && divisibleByFive)
             {
 
                 Console.WriteLine($"{i} fizz buzz");
-            }else if (i % 3 == 0)
+            }else if ( divisibleBythree) 
             {
                 Console.WriteLine($"{i} fizz");
-            } else if (i % 5 == 0)
+            } else if (divisibleByFive)
             {
                 Console.WriteLine($"{i} f buzz");
             }
