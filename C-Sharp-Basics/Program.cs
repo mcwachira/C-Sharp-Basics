@@ -44,9 +44,12 @@ class Program
         // //lopping strings
         // Iteration.StringIteration();
         
-        //reverse string
+        // //reverse string
+        //
+        // Reverse.StringReverse();
         
-        Reverse.StringReverse();
+        //password checker
+        Password.PasswordChecker();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
