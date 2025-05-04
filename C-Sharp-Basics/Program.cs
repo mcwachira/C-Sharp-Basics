@@ -39,7 +39,10 @@ class Program
         // FizzBuzz.FizzBuzzGame();
         
         //STRING EMPTY
-        Empty.StringEmpty();
+        // Empty.StringEmpty();
+        
+        //lopping strings
+        Iteration.StringIteration();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();

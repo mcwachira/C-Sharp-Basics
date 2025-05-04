@@ -8,7 +8,7 @@ public class Empty
         string name = Console.ReadLine();
         if (name != string.Empty)
         {
-            Console.WriteLine($"YOur name is {name}");
+            Console.WriteLine($"Your name is {name}");
         }
         else
         {
