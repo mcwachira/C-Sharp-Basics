@@ -41,8 +41,12 @@ class Program
         //STRING EMPTY
         // Empty.StringEmpty();
         
-        //lopping strings
-        Iteration.StringIteration();
+        // //lopping strings
+        // Iteration.StringIteration();
+        
+        //reverse string
+        
+        Reverse.StringReverse();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
