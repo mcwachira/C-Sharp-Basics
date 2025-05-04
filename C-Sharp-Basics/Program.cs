@@ -36,7 +36,10 @@ class Program
         // Timetable.MultiplicationTable();
         
         //fizz buz game
-        FizzBuzz.FizzBuzzGame();
+        // FizzBuzz.FizzBuzzGame();
+        
+        //STRING EMPTY
+        Empty.StringEmpty();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
