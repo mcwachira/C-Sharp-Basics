@@ -49,7 +49,11 @@ class Program
         // Reverse.StringReverse();
         
         //password checker
-        Password.PasswordChecker();
+        // Password.PasswordChecker();
+        
+        ///arrays
+        
+        Arrays.LearningArrays();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
