@@ -7,7 +7,7 @@ public class Arrays
  public static void LearningArrays()
  {
 
-  int[] numbers = new int[10];
+  int[] numbers = new int[4];
 
 
    // Console.Write("Enter a number:");
@@ -37,7 +37,7 @@ public class Arrays
   foreach (int num in numbers )
   {
 
-   Console.Write($"{num}");
+   Console.Write($"{num} ");
   }
  }
 }

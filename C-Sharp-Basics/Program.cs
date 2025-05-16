@@ -53,7 +53,10 @@ class Program
         
         ///arrays
         
-        Arrays.LearningArrays();
+        // Arrays.LearningArrays();
+        
+        //Traingle Exercise
+        TriangleExercise.TriangleExerciseSolution();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
