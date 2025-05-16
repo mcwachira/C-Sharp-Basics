@@ -56,7 +56,10 @@ class Program
         // Arrays.LearningArrays();
         
         //Traingle Exercise
-        TriangleExercise.TriangleExerciseSolution();
+        // TriangleExercise.TriangleExerciseSolution();
+        
+        //array revers
+        ArrayReverse.ReverseArray();
 
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
