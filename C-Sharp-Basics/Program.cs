@@ -59,8 +59,11 @@ class Program
         // TriangleExercise.TriangleExerciseSolution();
         
         //array revers
-        ArrayReverse.ReverseArray();
+        // ArrayReverse.ReverseArray();
 
+        
+        //find arrays based on index
+        ArrayIndexOf.FindIndexOfValueInArray();
         // Wait for Enter key to be pressed before shutting down.
         // Console.ReadLine();
 
