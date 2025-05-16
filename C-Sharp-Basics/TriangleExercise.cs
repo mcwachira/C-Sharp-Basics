@@ -9,18 +9,20 @@ public class TriangleExercise
 
 
         const int angleCount = 3;
-        int angleSum = 0;
+        int[] angles = new int[angleCount];
 
-        for (int i = 0; i < angleCount; i++)
+        for (int i = 0; i < angles.Length; i++)
         {
             Console.WriteLine($"Enter angle {i + 1}:");
-      
-        
-        angleSum +=   Convert.ToInt32(Console.ReadLine());
+            angles[i] = Convert.ToInt32(Console.ReadLine());
         }
+        int angleSum = 0;
 
-    Console.WriteLine(angleSum == 180 ? "Valid":"Invalid");
-
+        foreach (int angle in angles)
+        {
+            angleSum += angle;
+        }
+        Console.WriteLine(angleSum == 180 ? "Valid" : "Invalid");
 
         
     }
