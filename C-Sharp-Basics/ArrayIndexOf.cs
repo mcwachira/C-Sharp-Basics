@@ -15,13 +15,13 @@ public class ArrayIndexOf
         int searchNumber = Convert.ToInt32(Console.ReadLine());
         int position = Array.IndexOf(numbers, searchNumber);
 
-        // if (position > -1)
-        // {
-        //     Console.WriteLine($"Number {searchNumber} found at index {position + 1}");
-        // }
-        // else
-        // {
-        //     Console.WriteLine("Number not found");
-        // }
+        if (position > -1)
+        {
+            Console.WriteLine($"Number {searchNumber} found at index {position + 1}");
+        }
+        else
+        {
+            Console.WriteLine("Number not found");
+        }
     }
 }
